@@ -1,0 +1,18 @@
+n=int(input('enter number:'))
+l=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+t=[]
+c=0
+for i in l:
+    i=int(i)
+    if i==0:
+        continue
+    else:
+        t.append(i)
+        c=c+1
+print(c)
+for i in t:
+     print(i,end=' ')       
+    
